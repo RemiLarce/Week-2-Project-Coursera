@@ -1,0 +1,117 @@
+/* The whole website setting set to box-sizing Start */
+    
+    *{
+    	font-family: "Times New Roman", Georgia, Serif;
+    	box-sizing: border-box;
+	}
+ /* The whole website setting set to box-sizing End */   
+
+
+/* Paragraph name centered Start */
+ .zilla {
+	text-align:center;
+	color:red;
+	font-size:175%;
+}
+/* Paragraph name centered End */
+
+/* 3 Boxes Place Start */
+.bird{
+	position:relative;
+	float: left;
+	width: 30%;
+	height: 450px;
+	margin: 10px;
+	padding: 10px;
+    border: 3px solid #73AD21;
+    background-color: #87CEEE;
+}
+/* 3 Boxes Place End */
+
+/* div top right corner Start */
+#nickname-1{
+
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: 3px solid #73AD21;
+	padding: 10px;
+	background-color: #B8860B;
+	font-size:125%;
+}
+#nickname-2{
+
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: 3px solid #73AD21;
+	padding: 10px;
+	background-color: #007FFF;
+	font-size:125%;
+}
+#nickname-3{
+
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: 3px solid #73AD21;
+	padding: 10px;
+	background-color: #E6E6FA;
+	font-size:125%;
+}
+/* div top right corner End */
+
+/* Text inside div Start */
+.evolution{
+
+	padding: 10px;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+/* Text inside div End */
+
+/* Clear Both Start*/
+.clear-both {
+    clear: both;
+}
+
+/* ***** Media Queries Start***** */
+
+/* Desktop View Start */
+@media screen and (min-width: 992px){
+
+	.bird{
+		width:30%;  // Nothing change than default
+	}
+}
+/* Desktop View End */
+
+/* Tablet View Start */
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	.bird-1{
+		width:46%;
+		background-color: orange;!important;
+	}
+		.bird-2{
+		width:94%;
+		background-color: orange;!important;
+	}
+	
+}
+/* Tablet View End */
+
+/* Mobile View Start */
+
+@media screen and (max-width: 767px){
+
+	.bird{
+		width:96%;
+		
+	}
+}
+
+/* Mobile View End */
+
+/* *****Media Queries End***** */
